@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-dark text-white font-sans antialiased;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6;
+  }
+
+  .section-padding {
+    @apply py-20 lg:py-32;
+  }
+
+  .card-premium {
+    @apply bg-surface-dark border border-white/5 rounded-2xl p-8 transition-all duration-300 hover:border-brand-primary/30 hover:shadow-lg hover:-translate-y-1;
+    backdrop-filter: blur(10px);
+  }
+
+  .text-brand-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400;
+  }
+
+  /* Simplified button without complex arbitrary shadow values for now to fix build */
+  .btn-primary {
+    @apply bg-brand-primary hover:bg-blue-600 text-white font-medium py-3 px-8 rounded-full transition-all duration-300 shadow-lg hover:-translate-y-0.5 active:translate-y-0 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-outline {
+    @apply border border-white/20 text-white font-medium py-3 px-8 rounded-full hover:bg-white/5 transition-all duration-300;
+  }
+}
+
+.bg-grid-subtle {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
