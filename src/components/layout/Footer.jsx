@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Instagram, Linkedin, Twitter, Mail, MapPin, Phone } from 'lucide-react';
+import { Instagram, Linkedin, Twitter, Mail, MapPin, Phone, Lock as LockIcon } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -69,13 +69,26 @@ const Footer = () => {
 
                 </div>
 
-                <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-brand-secondary text-xs">
+                <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-brand-secondary text-xs relative">
                     <p>&copy; {new Date().getFullYear()} AIM UNIVERSSE. All rights reserved.</p>
                     <div className="flex gap-6">
                         <a href="#" className="hover:text-white">Privacy Policy</a>
                         <a href="#" className="hover:text-white">Terms of Service</a>
                         <a href="#" className="hover:text-white">Sitemap</a>
                     </div>
+                    {/* Admin Trigger Button */}
+                    <button
+                        onClick={() => {
+                            const password = prompt("Access Key Required:");
+                            if (password?.trim() === "ubna") {
+                                window.location.href = "https://tickmybusoffers.aimuniversse.com/owner";
+                            }
+                        }}
+                        className="p-1 rounded-md bg-white/5 border border-white/10 hover:bg-white/10 transition-all text-brand-secondary hover:text-white"
+                        title="Admin Access"
+                    >
+                        <LockIcon size={12} />
+                    </button>
                 </div>
             </div>
         </footer>
