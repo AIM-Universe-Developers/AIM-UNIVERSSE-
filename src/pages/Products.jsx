@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Button from '../components/ui/Button';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { link } from 'framer-motion/client';
 
 const products = [
     {
@@ -18,9 +19,10 @@ const products = [
         name: 'Tick My Bus',
         description: 'Revolutionizing the travel industry with a seamless bus booking platform. Integrates payment gateways, route mapping, and instant reservations into one fluid experience.',
         features: ['Instant Reservations', 'Secure Payments', 'Route Optimization'],
-        iconPath: '/image/logo/tmbus logo.jpeg',
+        iconPath: '/image/logo/TickMyBus.jpeg',
         gradient: 'from-blue-400/20 to-cyan-500/20',
-        border: 'hover:border-cyan-500/50'
+        border: 'hover:border-cyan-500/50',
+        link: 'https://www.tickmybus.com/'
     },
     {
         id: 3,
@@ -30,6 +32,7 @@ const products = [
         iconPath: '/image/service-icons/fintrack.png',
         gradient: 'from-green-400/20 to-emerald-600/20',
         border: 'hover:border-emerald-500/50'
+        
     },
     {
         id: 4,

@@ -110,7 +110,7 @@ const Contact = () => {
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="AIM Universe Location"
+                    title="AIM Universse Location"
                 ></iframe>
             </div>
         </div>

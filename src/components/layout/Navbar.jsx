@@ -34,7 +34,7 @@ const Navbar = () => {
                 <Link to="/" className="flex items-center gap-2">
                     <img src="/image/logo/aim-universe-logo-v2.jpg" alt="AIM UNIVERSE" className="h-12 w-auto object-contain rounded-lg" />
                     <span className="text-2xl font-bold tracking-tighter">
-                        <span className="text-white">AIM</span> <span className="text-brand-primary">UNIVERSE</span>
+                        <span className="text-white">AIM</span> <span className="text-brand-primary">UNIVERSSE</span>
                     </span>
                 </Link>
 

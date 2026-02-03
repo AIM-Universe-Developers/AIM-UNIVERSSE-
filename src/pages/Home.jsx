@@ -34,7 +34,7 @@ const Home = () => {
                         </h1>
 
                         <p className="text-brand-secondary text-lg md:text-xl max-w-lg leading-relaxed">
-                            AIM UNIVERSE delivers premium software solutions that empower businesses to scale securely and efficiently. We build the technology backbone of tomorrow.
+                            AIM UNIVERSSE delivers premium software solutions that empower businesses to scale securely and efficiently. We build the technology backbone of tomorrow.
                         </p>
 
                         <div className="flex flex-wrap gap-4 pt-4">
@@ -101,7 +101,7 @@ const Home = () => {
                 <div className="container-custom relative z-10 text-center">
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Ready to Transform Your Business?</h2>
                     <p className="text-brand-secondary text-lg max-w-2xl mx-auto mb-10">
-                        Join hundreds of innovative companies leveraging AIM UNIVERSE for their digital transformation.
+                        Join hundreds of innovative companies leveraging AIM UNIVERSSE for their digital transformation.
                     </p>
                     <Button className="text-lg px-12 py-4 shadow-xl text-white" onClick={() => window.location.href = '/contact'}>
                         Get in Touch

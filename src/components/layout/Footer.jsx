@@ -11,9 +11,9 @@ const Footer = () => {
                     {/* Brand Column */}
                     <div className="space-y-4">
                         <Link to="/" className="flex items-center gap-3 mb-4">
-                            <img src="/image/logo/aim-universe-logo-v2.jpg" alt="AIM UNIVERSE" className="h-14 w-auto object-contain rounded-lg" />
+                            <img src="/image/logo/aim-universe-logo-v2.jpg" alt="AIM UNIVERSSE" className="h-14 w-auto object-contain rounded-lg" />
                             <span className="text-2xl font-bold tracking-tighter">
-                                <span className="text-white">AIM</span> <span className="text-brand-primary">UNIVERSE</span>
+                                <span className="text-white">AIM</span> <span className="text-brand-primary">UNIVERSSE</span>
                             </span>
                         </Link>
                         <p className="text-brand-secondary leading-relaxed">
@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-brand-secondary text-xs">
-                    <p>&copy; {new Date().getFullYear()} AIM UNIVERSE. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} AIM UNIVERSSE. All rights reserved.</p>
                     <div className="flex gap-6">
                         <a href="#" className="hover:text-white">Privacy Policy</a>
                         <a href="#" className="hover:text-white">Terms of Service</a>

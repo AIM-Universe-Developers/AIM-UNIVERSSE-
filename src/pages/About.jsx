@@ -25,7 +25,7 @@ const About = () => {
                     <h2 className="text-2xl font-bold text-white mb-6">Who We Are</h2>
                     <div className="space-y-6 text-brand-secondary text-lg leading-relaxed">
                         <p>
-                            Founded in 2021, <span className="text-white font-semibold">AIM UNIVERSE</span> has grown into a trusted technology partner for businesses across various industries.
+                            Founded in 2021, <span className="text-white font-semibold">AIM UNIVERSSE</span> has grown into a trusted technology partner for businesses across various industries.
                         </p>
                         <p>
                             Our mission is to bridge the gap between complex technological capabilities and real-world business applications. We believe in a future where digital transformation is seamless, secure, and accessible.
