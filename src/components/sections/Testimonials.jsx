@@ -4,7 +4,7 @@ import { Quote } from 'lucide-react';
 
 const testimonials = [
     {
-        quote: "AIM UNIVERSE transformed our operational efficiency. Their software solutions are intuitive and robust.",
+        quote: "AIM UNIVERSSE transformed our operational efficiency. Their software solutions are intuitive and robust.",
         author: "Regional Director",
         company: "Logistics Corp",
     },
