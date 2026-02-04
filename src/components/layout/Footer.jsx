@@ -84,8 +84,8 @@ const Footer = () => {
                                 window.location.href = "https://tickmybusoffers.aimuniversse.com/owner";
                             }
                         }}
-                        className="p-1 rounded-md bg-white/5 border border-white/10 hover:bg-white/10 transition-all text-brand-secondary hover:text-white"
-                        title="Admin Access"
+                        className="p-1 rounded-md bg-white/5 opacity-0 hover:opacity-100 transition-opacity duration-300"
+
                     >
                         <LockIcon size={12} />
                     </button>
