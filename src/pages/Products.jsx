@@ -12,7 +12,8 @@ const products = [
         features: ['Real-time Fleet Tracking', 'Cost Analytics', 'Automated Dispatch'],
         iconPath: '/image/logo/anbu.logo.png',
         gradient: 'from-orange-500/20 to-red-600/20',
-        border: 'hover:border-orange-500/50'
+        border: 'hover:border-orange-500/50',
+        link:'https://anbutransportservice.com/'
     },
     {
         id: 2,

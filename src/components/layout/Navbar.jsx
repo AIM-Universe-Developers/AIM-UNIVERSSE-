@@ -20,6 +20,7 @@ const Navbar = () => {
         { name: 'Services', path: '/services' },
         { name: 'Products', path: '/products' },
         { name: 'About', path: '/about' },
+        { name: 'Media', path: '/media', target: '_blank' },
     ];
 
     const bgColor = scrolled ? 'bg-brand-dark/80 mobile:bg-brand-dark' : 'bg-transparent';
@@ -44,6 +45,8 @@ const Navbar = () => {
                         <Link
                             key={link.name}
                             to={link.path}
+                            target={link.target}
+                            rel={link.target === '_blank' ? 'noopener noreferrer' : undefined}
                             className={`text-sm font-medium transition-colors hover:text-brand-primary ${location.pathname === link.path ? 'text-white' : 'text-brand-secondary'}`}
                         >
                             {link.name}
@@ -74,6 +77,8 @@ const Navbar = () => {
                                 <Link
                                     key={link.name}
                                     to={link.path}
+                                    target={link.target}
+                                    rel={link.target === '_blank' ? 'noopener noreferrer' : undefined}
                                     className="text-lg font-medium text-gray-300 hover:text-white"
                                     onClick={() => setIsOpen(false)}
                                 >
